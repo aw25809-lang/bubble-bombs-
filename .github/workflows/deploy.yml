@@ -32,9 +32,9 @@ jobs:
         run: |
           REPO_NAME="${GITHUB_REPOSITORY#*/}"
           if [[ "$REPO_NAME" == *.github.io ]]; then
-            VITE_BASE_PATH="/" npm run build
+            npx vite build --base="/"
           else
-            VITE_BASE_PATH="/$REPO_NAME/" npm run build
+            npx vite build --base="/$REPO_NAME/"
           fi
 
       - name: Deploy to gh-pages branch

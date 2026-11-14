@@ -1,0 +1,8 @@
+{
+  "name": "彈珠滿水祭 · Ramune Brim",
+  "description": "支援 2 至 6 人同台輪流傳遞的復古夜市聽聲倒水派對遊戲，憑水聲頻率與音量判斷遮蔽水瓶中的隨機水位，讓對手溢出出局！",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

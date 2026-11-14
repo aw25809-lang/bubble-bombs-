@@ -20,9 +20,10 @@ import {
   PauseModal,
   RoundRevealBar,
 } from './components/GameOverlays';
+import backdropImage from './assets/images/ramune_stall_backdrop_1794643153093.jpg';
 
 const DEFAULT_NAMES = ['阿明', '小美', '大雄', '雅婷', '志豪', '可欣'];
-const BACKDROP_URL = '/src/assets/images/ramune_stall_backdrop_1794643153093.jpg';
+const BACKDROP_URL = backdropImage;
 
 function createRandomBottle(roundNumber: number): BottleConfig {
   return {
